@@ -4,7 +4,7 @@ import Newfeed from "./components/Newfeed";
 
 function App() {
   return (
-    <div>
+    <div className='app'>
       <Newfeed />
       <CurrencyConverter />
     </div>
