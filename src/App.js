@@ -1,9 +1,12 @@
-import './App.css';
+import "./App.css";
+import CurrencyConverter from "./components/CurrencyConverter";
+import Newfeed from "./components/Newfeed";
 
 function App() {
   return (
-    <div >
-    
+    <div>
+      <Newfeed />
+      <CurrencyConverter />
     </div>
   );
 }
