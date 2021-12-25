@@ -100,7 +100,7 @@ function CurrencyConverter() {
           click here
         </button>
       </div>
-      <ExchangeRate />
+      <ExchangeRate ExchangeRate={exchangeRate} />
     </div>
   );
 }

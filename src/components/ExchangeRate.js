@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function ExchangeRate() {
-    return (
-        <div className='exchange-rate'>
-            Im exchange rate
-        </div>
-    )
+function ExchangeRate({ ExchangeRate }) {
+  return <div className='exchange-rate'>{ExchangeRate}</div>;
 }
 
-export default ExchangeRate
+export default ExchangeRate;
