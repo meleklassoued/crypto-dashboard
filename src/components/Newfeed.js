@@ -10,7 +10,7 @@ function Newfeed() {
       url: "https://crypto-news15.p.rapidapi.com/news",
       headers: {
         "x-rapidapi-host": "crypto-news15.p.rapidapi.com",
-        "x-rapidapi-key": "50dfe8bbe6msha025a531747029dp119647jsn255a560e8e36",
+        "x-rapidapi-key": process.env.REACT_APP_API_KEY,
       },
     };
 
