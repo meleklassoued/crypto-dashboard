@@ -32,7 +32,10 @@ function Newfeed() {
       <h2>News feed</h2>
       <div>
         {displayedArticle?.map((article) => (
-          <p>{article.title}</p>
+          <>
+            <p>{article.title}</p>
+            <a href={article.url}>{article.url}</a>
+          </>
         ))}
       </div>
     </div>
