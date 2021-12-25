@@ -12,6 +12,8 @@
 
 .news-feed {
   background-color: blue;
+  height: 400px;
+  width: 50%;
 }
 
 .exchange-rate {
